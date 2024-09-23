@@ -1,0 +1,104 @@
+header{
+    background-color: #428885;
+    color: #fffffff5;
+    padding: 30px;
+    height: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+     
+}/*style de la banderole*/
+.gros:hover{
+    font-size: 110%;
+}
+.img1{
+    height: 40px;
+}/*taille image 1*/
+.P1{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: rgb(147, 144, 140);
+    z-index: 1;
+    background-color: white;
+    gap: 20px;
+}
+.T1{
+    gap: 20px;
+}
+/*style du premier paragraphe*/
+.img2{
+    height: 300px;
+}/*taille image2*/
+html{
+    width: 800px;
+    position: relative;
+    left: 240px;
+    z-index: 0;
+    background-color: rgb(231, 222, 222);
+}/*style de la page web*/
+.P2{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: rgb(147, 144, 140);
+    z-index: 1;
+    background-color: white;
+    gap: 20px;
+}
+.img3{
+    height: 400px;
+    width: 500px;
+}
+h2{
+    position: relative;
+    top: 150px;
+    left: 20px;
+}
+.P3{
+    display: flex;
+    align-items: center;
+    color: rgb(147, 144, 140);
+    font-size: 16px;
+    z-index: 1;
+    background-color: white;
+    gap: 20px;
+}
+.titre{
+    position: relative;
+    left: 290px;
+    
+}
+a{  
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    position: relative;
+    bottom: 70px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 20px;
+}
+.L1{
+    position: relative;
+    left: 290px;
+}
+.img4{
+    width: 300px;
+    height: 420px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 20px;
+} 
+.contactimg{
+    width: 20px;
+    height: 20px;
+}
